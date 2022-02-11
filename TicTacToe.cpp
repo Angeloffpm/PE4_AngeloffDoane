@@ -20,8 +20,12 @@ void DisplayBoard(int** board) {
     std::cout << board[2][0] << " " << board[2][1] << " " << board[2][2] << std::endl;
 }
 
+void PlaceMarker(int* choice, int marker, int**board) {
+    board[choice[0]][choice[1]] = marker;
+}
+
 int* GetPlayerChoice() {
-    int* arr = new int*[2];
+    int* arr = new int[2];
     std::cout << "Which row would you like to play in?" << std::endl;
     std::cin >> arr[0];
     std::cout << "Which column would you like to play in?" << std::endl;
