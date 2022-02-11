@@ -20,6 +20,10 @@ void DisplayBoard(int** board) {
     std::cout << board[2][0] << " " << board[2][1] << " " << board[2][2] << std::endl;
 }
 
+void PlaceMarker(int* choice, int marker, int**board) {
+    board[choice[0]][choice[1]] = marker;
+}
+
 int main() {
     int **board = CreateBoard();
 }
