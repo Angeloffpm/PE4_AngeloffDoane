@@ -35,4 +35,9 @@ int* GetPlayerChoice() {
 
 int main() {
     int **board = CreateBoard();
+    for (int i = 0; i < 9; i++) {
+        DisplayBoard(board);
+        std::cout << "Player " << (i%2) + 1 << std::endl;
+        PlaceMarker(GetPlayerChoice(),(i%2) + 1,board);
+    }
 }

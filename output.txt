@@ -1,0 +1,74 @@
+jovyan@jupyter-codo5326:~/PE4_AngeloffDoane$ ./a.out
+0 0 0
+0 0 0
+0 0 0
+Player 1
+Which row would you like to play in?
+1
+Which column would you like to play in?
+0
+0 0 0
+1 0 0
+0 0 0
+Player 2
+Which row would you like to play in?
+2
+Which column would you like to play in?
+0
+0 0 0
+1 0 0
+2 0 0
+Player 1
+Which row would you like to play in?
+0
+Which column would you like to play in?
+2
+0 0 1
+1 0 0
+2 0 0
+Player 2
+Which row would you like to play in?
+1
+Which column would you like to play in?
+1
+0 0 1
+1 2 0
+2 0 0
+Player 1
+Which row would you like to play in?
+0
+Which column would you like to play in?
+0
+1 0 1
+1 2 0
+2 0 0
+Player 2
+Which row would you like to play in?
+0
+Which column would you like to play in?
+1
+1 2 1
+1 2 0
+2 0 0
+Player 1
+Which row would you like to play in?
+1
+Which column would you like to play in?
+2
+1 2 1
+1 2 1
+2 0 0
+Player 2
+Which row would you like to play in?
+2
+Which column would you like to play in?
+1
+1 2 1
+1 2 1
+2 2 0
+Player 1
+Which row would you like to play in?
+2
+Which column would you like to play in?
+2
+jovyan@jupyter-codo5326:~/PE4_AngeloffDoane$ 
